@@ -1,0 +1,97 @@
+body {
+    display: none;
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.top {
+    padding-top: 1%;
+    display: inline-block;
+    border-style: inset;
+    background-color: #242424;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.main {
+    padding: 10%;
+    padding-top: 5%;
+    background-color: #141414;
+    color: black;
+    border-radius: 0% 0% 5px 5px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.col-25 {
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    text-align: center;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 15px;
+    color: white;
+    background: darkgray;
+    resize: vertical;
+    flex-flow: row;
+    flex-wrap: wrap;
+    word-break: break-word;
+}
+
+input:nth-of-type(1),
+input:nth-of-type(2) {
+    display: inline;
+    width: 49%;
+}
+
+input[type=button].sendReport {
+    outline: 0;
+    background: #eb3434;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 1%;
+    transition: 1s;
+}
+
+input[type=button]:hover.sendReport {
+    transition: 1s;
+    background: #38c738;
+}
+
+input[type=button].CloseButton {
+    outline: 0;
+    background: #eb3434;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 1%;
+    transition: 1s;
+}
