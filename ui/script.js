@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
     document.onkeyup = function(data) {
         if (data.which == 27) {
-            $.post('http://ui-bugreport/close', JSON.stringify({}));
+            $.post(`http://${GetParentResourceName()}/close`, JSON.stringify({}));
         }
     };
 
@@ -25,7 +25,7 @@ $(document).ready(function() {
             console.log("Something went wrong")
         } else {
             data = [discord, description];
-            $.post('http://ui-bugreport/sendReport', JSON.stringify({ data }));
+            $.post(`http://${GetParentResourceName()}/sendReport`, JSON.stringify({ data }));
         }
     });
 
