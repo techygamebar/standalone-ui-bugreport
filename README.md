@@ -11,7 +11,7 @@ A Bug Report UI
 **[techygamebar](https://github.com/techygamebar/standalone-ui-bugreport) Base Resource**
 
 #### Preview 
-![Click Here](https://streamable.com/8j5fjn)
+![Steamable](https://user-images.githubusercontent.com/90366824/138571288-adafab40-c275-4523-af35-d039fdd3909e.gif)
 
 
 ```zsh
