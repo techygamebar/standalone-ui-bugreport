@@ -9,8 +9,12 @@ A Bug Report UI
 
 ### Credits
 **[techygamebar](https://github.com/techygamebar/standalone-ui-bugreport) Base Resource**
+ 
+## Requirements
 
-#### Preview 
+[pNotify](https://forum.cfx.re/t/release-pnotify-in-game-js-notifications-using-noty/20659)
+
+# Preview
 ![Steamable](https://user-images.githubusercontent.com/90366824/138571288-adafab40-c275-4523-af35-d039fdd3909e.gif)
 
 
