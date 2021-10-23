@@ -5,7 +5,7 @@ A Bug Report UI
 
 1) Modify the `config.lua` to your liking.
 2) Add the folder to your server resources.
-3) Add `ensure ui-bugreport` to your server.cfg. (You can't not rename this resource)
+3) Add `ensure ui-bugreport` to your server.cfg.
 
 ### Credits
 **[techygamebar](https://github.com/techygamebar/standalone-ui-bugreport) Base Resource**
