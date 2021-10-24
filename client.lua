@@ -1,6 +1,6 @@
 
 
-local show = true
+local show = false
 function openGui()
   if show == false then
     show = true
