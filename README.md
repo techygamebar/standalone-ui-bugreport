@@ -1,23 +1,23 @@
-# ABOUT SCRIPT
-Script for NON-ESX reporting bugs in-game
-     [STANDALONE SCRIPT]
+# Bug Report Center 🎉
+A Bug Report UI
 
-# NOTIFICATIONS SYSTEM YOU CAN USE
+## Installation
+
+1) Modify the `config.lua` to your liking.
+2) Add the folder to your server resources.
+3) Add `ensure ui-bugreport` to your server.cfg.
+
+### Credits
+**[techygamebar](https://github.com/techygamebar/standalone-ui-bugreport) Base Resource**
+ 
+## Requirements
+
 [pNotify](https://forum.cfx.re/t/release-pnotify-in-game-js-notifications-using-noty/20659)
 
-# :computer: Commands
-**/bugreport** - Opens the bugreport UI
+# Preview
+![Steamable](https://user-images.githubusercontent.com/90366824/138571288-adafab40-c275-4523-af35-d039fdd3909e.gif)
 
-# 📷 PREVIEW
-![image](https://user-images.githubusercontent.com/65540686/117639477-943feb00-b1a1-11eb-9057-3ea411caa88b.png)
 
-# :gear: Install Manual
-1. Rename Folder to ui-bugreport else won't work
-2. Add the folder to your FiveM resources directory.
-3. Edit your server.cfg and add start ui-bugreport
-4. Edit config.lua and add your discord webhook link
-
-# :wrench: Support
-Open an issue or join my discord server for support
-https://discord.gg/js3BrzReXw
----------------------------------------------------
+```zsh
+>  Giving out 🍪, To People that follow me!
+```

@@ -1,13 +1,11 @@
 RegisterNetEvent("ui-bugreport:sendReport")
 AddEventHandler("ui-bugreport:sendReport", function(data)
 
-  discord = data['data'][1]
   description = data['data'][2]
 
   local fields = {}
   table.insert(fields, { name = "Name:", value = GetPlayerName(source), inline = true })
   table.insert(fields, { name = "Steam ID:", value = GetPlayerIdentifiers(src)[1], inline = true })
-  table.insert(fields, { name = "Bug name:", value = discord, inline = true })
   table.insert(fields, { name = "Description:", value = description, inline = false }) 
 
 
